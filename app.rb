@@ -5,7 +5,7 @@ get '/' do
   erb :index
 end
 
-post '/' do
+post '/exec' do
   @result = "Test"
-  erb :index
+  erb :exec
 end
