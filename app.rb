@@ -5,4 +5,7 @@ get '/' do
   erb :index
 end
 
-
+post '/' do
+  @result = "Test"
+  erb :index
+end
