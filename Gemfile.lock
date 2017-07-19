@@ -4,6 +4,11 @@ GEM
     backticks (1.0.0)
     docker (0.4.0)
       backticks (~> 1.0.0)
+    docker-api (1.33.6)
+      excon (>= 0.38.0)
+      json
+    excon (0.57.1)
+    json (2.1.0)
     mustermann (1.0.0)
     rack (2.0.3)
     rack-protection (2.0.0)
@@ -20,6 +25,7 @@ PLATFORMS
 
 DEPENDENCIES
   docker (= 0.4.0)
+  docker-api (= 1.33.6)
   sinatra (= 2.0.0)
 
 RUBY VERSION
